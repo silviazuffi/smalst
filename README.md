@@ -36,3 +36,17 @@ See the script in smalst/script directory for training and testing
 
 #### Notes
 The code in this repository is widely based on the project https://github.com/akanazawa/cmr
+
+#### Citation
+
+If you use this code please cite
+```
+@inproceedings{Zuffi:ICCV:2019,
+  title = {Three-D Safari: Learning to Estimate Zebra Pose, Shape, and Texture from Images "In the Wild"},
+  author = {Zuffi, Silvia and Kanazawa, Angjoo and Berger-Wolf, Tanja and Black, Michael J.},
+  booktitle = {International Conference on Computer Vision},
+  month = oct,
+  year = {2019},
+  month_numeric = {10}
+}
+```
