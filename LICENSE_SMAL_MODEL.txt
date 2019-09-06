@@ -1,0 +1,40 @@
+SMAL Model software License for non-commercial scientific research purposes 
+
+Please read carefully the following terms and conditions and any accompanying documentation before you download and/or use the SMAL model. The SMAL model (the "Model") includes data files, images, statistical models and documentation.
+ 
+By downloading and/or using the Model, you acknowledge that you have read these terms and conditions, understand them, and agree to be
+bound by them. If you do not agree with these terms and conditions, you must not download and/or use the Model.
+
+* Ownership
+
+The Model has been developed at the Max Planck Institute for Intelligent Systems (hereinafter "MPI")  and is owned by and proprietary material of the Max-Planck-Gesellschaft zur Förderung der Wissenschaften e.V. (hereinafter “MPG”; MPI and MPG hereinafter collectively “Max-Planck”). 
+
+* License Grant
+
+Max-Planck grants you a non-exclusive, non-transferable, free of charge right to use the Model for the sole purpose of performing non-commercial scientific research, non-commercial education, or non-commercial artistic projects.
+
+Any other use, in particular any use for commercial purposes, is prohibited.   
+
+The Model may not be reproduced, modified and/or made available in any form to any third party without Max-Planck’s prior written permission.  By downloading the Model, you agree not to reverse engineer it.
+
+* Disclaimer of Representations and Warranties 
+
+You expressly acknowledge and agree that the Model results from basic research, is provided “AS IS”, may contain errors, and that any use of the Model is at your sole risk. MAX-PLANCK MAKES NO REPRESENTATIONS OR WARRANTIES OF ANY KIND CONCERNING THE SOFTWARE, NEITHER EXPRESS NOR IMPLIED, AND THE ABSENCE OF ANY LEGAL OR ACTUAL DEFECTS, WHETHER DISCOVERABLE OR NOT. Specifically, and not to limit the foregoing, Max-Planck makes no representations or warranties (i) regarding the merchantability or fitness for a particular purpose of the Model, (ii) that the use of the Model will not infringe any patents, copyrights or other intellectual property rights of a third party, and  (iii) that the use of the Model will not cause any damage of any kind to you or a third party. 
+
+* Limitation of Liability
+
+Under no circumstances shall Max-Planck be liable for any incidental, special, indirect or consequential damages arising out of or relating to this license, including but not limited to, any lost profits, business interruption, loss of programs or other data, or all other commercial damages or losses, even if advised of the possibility thereof.
+
+* Publications using the Model:
+
+You agree to cite the papers:
+
+        Silvia Zuffi, Angjoo Kanazawa, David Jacobs, and Michael J. Black, 
+    	 "3D Menagerie: Modeling the 3D Shape and Pose of Animals," 
+    	 CVPR 2017.  
+
+* Commercial licensing opportunities:
+
+For commercial uses of the Software, please contact
+	ps-license@tue.mpg.de
+
