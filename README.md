@@ -33,3 +33,6 @@ download the [SMPL model](https://ps.is.tuebingen.mpg.de/code/smpl/) and create 
 #### Usage
 
 See the script in smalst/script directory for training and testing
+
+#### Notes
+The code in this repository is widely based on the project https://github.com/akanazawa/cmr
