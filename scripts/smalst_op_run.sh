@@ -1,6 +1,9 @@
 #!/bin/sh
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda/lib
 
+# The directory processed contains the input image as processed by the network in the feed forward pass.
+# Before running the optimization please run the feed forward network on the data with the flag save_input at True (see smalst_evaluation_run.sh)
+
 zebra_dir='/Users/silvia/Dropbox/Work/smalst/zebra_video_frame/processed'
 zebra_dir_images='/Users/silvia/Dropbox/Work/smalst/zebra_video_frame/processed/*'
 for dir in $zebra_dir_images
