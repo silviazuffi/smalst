@@ -6,6 +6,10 @@ Silvia Zuffi<sup>1</sup>, Angjoo Kanazawa<sup>2</sup>, Tanja Berger-Wolf<sup>3</
 
 In ICCV 2019
 
+[paper](https://ps.is.tuebingen.mpg.de/uploads_file/attachment/attachment/533/6034.pdf)
+
+[suppmat](https://ps.is.tuebingen.mpg.de/uploads_file/attachment/attachment/535/6034_supp.pdf)
+
 
 ### Requirements
 - Python 2.7
@@ -30,6 +34,15 @@ bash install_external.sh
 ```
 #### Install SMPL model
 download the [SMPL model](https://ps.is.tuebingen.mpg.de/code/smpl/) and create a directory smpl_webuser under the smalst/smal_model directory
+
+#### Download data
+- [Trained network](https://drive.google.com/a/berkeley.edu/file/d/1ZkKmqlbs3LlcGTrMK1j0ZVBpddg9b6Jf/view?usp=drivesdk)
+
+- [Training data](https://drive.google.com/a/berkeley.edu/file/d/1yVy4--M4CNfE5x9wUr1QBmAXEcWb6PWF/view?usp=drivesdk) 
+
+- [Test data](https://drive.google.com/a/berkeley.edu/file/d/1g5jZeA2ptAgdKVOAbZoVqsU-dNE-HD-e/view?usp=drivesdk)
+
+- [Validation data](https://drive.google.com/a/berkeley.edu/file/d/1Ae0J83Y7Un1zBYFVd2za94d1KNnks8IL/view?usp=drivesdk)
 
 #### Usage
 
