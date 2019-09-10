@@ -44,6 +44,8 @@ download the [SMPL model](https://ps.is.tuebingen.mpg.de/code/smpl/) and create 
 
 - [Validation data](https://drive.google.com/a/berkeley.edu/file/d/1Ae0J83Y7Un1zBYFVd2za94d1KNnks8IL/view?usp=drivesdk)
 
+The test and validation data are images collected in [The Great Grevy's Rally 2018](https://www.marwell.org.uk/media/other/cs_report_ggr_2018v.4.pdf)
+
 #### Usage
 
 See the script in smalst/script directory for training and testing
