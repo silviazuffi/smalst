@@ -75,8 +75,5 @@ If you use this code please cite
 }
 ```
 
-#<p align="center">
-#  <img src="https://github.com/silviazuffi/smalst/blob/master/docs/zebra_video.gif">
-#</p>
 
 
