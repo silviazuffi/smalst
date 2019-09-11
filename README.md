@@ -6,6 +6,8 @@ Silvia Zuffi<sup>1</sup>, Angjoo Kanazawa<sup>2</sup>, Tanya Berger-Wolf<sup>3</
 
 In ICCV 2019
 
+![alt text](https://github.com/silviazuffi/smalst/blob/master/docs/teaser4.jpg)
+
 [paper](https://ps.is.tuebingen.mpg.de/uploads_file/attachment/attachment/533/6034.pdf)
 
 [suppmat](https://ps.is.tuebingen.mpg.de/uploads_file/attachment/attachment/535/6034_supp.pdf)
