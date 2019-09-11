@@ -1,6 +1,7 @@
 # Three-D Safari: Learning to Estimate Zebra Pose, Shape, and Texture from Images "In the Wild"
 
 Silvia Zuffi<sup>1</sup>, Angjoo Kanazawa<sup>2</sup>, Tanya Berger-Wolf<sup>3</sup>, Michael J. Black<sup>4</sup>
+
 <sup>1</sup>IMATI-CNR, Milan, Italy, <sup>2</sup>University of California, Berkely
 <sup>3</sup>University of Illinois at Chicago, <sup>4</sup>Max Planck Institute for Intelligent Systems, Tuebingen, Germany
 
