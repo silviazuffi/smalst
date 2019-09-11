@@ -9,6 +9,11 @@ In ICCV 2019
 
 ![alt text](https://github.com/silviazuffi/smalst/blob/master/docs/teaser4.jpg)
 
+<p align="center">
+  <img src="https://github.com/silviazuffi/smalst/blob/master/docs/zebra_video.gif">
+</p>
+
+
 [paper](https://ps.is.tuebingen.mpg.de/uploads_file/attachment/attachment/533/6034.pdf)
 
 [suppmat](https://ps.is.tuebingen.mpg.de/uploads_file/attachment/attachment/535/6034_supp.pdf)
@@ -70,8 +75,8 @@ If you use this code please cite
 }
 ```
 
-<p align="center">
-  <img src="https://github.com/silviazuffi/smalst/blob/master/docs/zebra_video.gif">
-</p>
+#<p align="center">
+#  <img src="https://github.com/silviazuffi/smalst/blob/master/docs/zebra_video.gif">
+#</p>
 
 
