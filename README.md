@@ -68,3 +68,9 @@ If you use this code please cite
   month_numeric = {10}
 }
 ```
+
+<p align="center">
+  <img src="https://github.com/silviazuffi/smalst/blob/master/docs/zebra_video.gif">
+</p>
+
+
