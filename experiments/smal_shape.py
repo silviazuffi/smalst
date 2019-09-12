@@ -126,9 +126,7 @@ class ShapeTrainer(train_utils.Trainer):
         faces = self.model.faces.view(1, -1, 3)
         self.faces = faces.repeat(opts.batch_size, 1, 1)
         self.renderer = NeuralRenderer(opts.img_size, opts.projection_type, opts.norm_f, opts.norm_z, opts.norm_f0)
-        self.renderer_predcam = NeuralRenderer(opts.img_size, opts.projection_type, opts.norm_f, opts.norm_z, opts.norm_f0) #for camera loss via projection
-
-        # Need separate NMR for each fwd/bwd call.
+        
         if opts.texture:
             self.tex_renderer = NeuralRenderer(opts.img_size, opts.projection_type, opts.norm_f, opts.norm_z, opts.norm_f0)
             # Only use ambient light for tex renderer
