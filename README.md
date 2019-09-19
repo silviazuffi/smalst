@@ -46,13 +46,14 @@ download the [SMPL model](https://ps.is.tuebingen.mpg.de/code/smpl/) and create 
 #### Download data
 - [Trained network](https://drive.google.com/a/berkeley.edu/file/d/1ZkKmqlbs3LlcGTrMK1j0ZVBpddg9b6Jf/view?usp=drivesdk)
 
-- [Training data] #(https://drive.google.com/a/berkeley.edu/file/d/1yVy4--M4CNfE5x9wUr1QBmAXEcWb6PWF/view?usp=drivesdk) 
+- [Training data] 
 
 - [Test data](https://drive.google.com/a/berkeley.edu/file/d/1g5jZeA2ptAgdKVOAbZoVqsU-dNE-HD-e/view?usp=drivesdk)
 
 - [Validation data](https://drive.google.com/a/berkeley.edu/file/d/1Ae0J83Y7Un1zBYFVd2za94d1KNnks8IL/view?usp=drivesdk)
 
 The test and validation data are images collected in [The Great Grevy's Rally 2018](https://www.marwell.org.uk/media/other/cs_report_ggr_2018v.4.pdf)
+
 
 #### Usage
 
