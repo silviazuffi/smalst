@@ -2,7 +2,7 @@
 
 Example usage:
 
-python -m nokap.experiments.smal_shape --zebra_dir='smalst/zebra_no_toys_wtex_1000_0' --num_epochs=100000 --save_epoch_freq=20 --name=smal_net_600 --save_training_imgs=True --num_images=20000 --do_validation=True
+python -m smalst.experiments.smal_shape --zebra_dir='smalst/zebra_no_toys_wtex_1000_0' --num_epochs=100000 --save_epoch_freq=20 --name=smal_net_600 --save_training_imgs=True --num_images=20000 --do_validation=True
 
 """
 
@@ -115,7 +115,7 @@ class ShapeTrainer(train_utils.Trainer):
         self.model = self.model.cuda(device=opts.gpu_id)
 
         if not opts.infer_vert2kp:
-            self.vert2kp = torch.Tensor(pkl.load(open('nokap/'+opts.dataset+'_data/verts2kp.pkl'))).cuda(device=opts.gpu_id)
+            self.vert2kp = torch.Tensor(pkl.load(open('smalst/'+opts.dataset+'_data/verts2kp.pkl'))).cuda(device=opts.gpu_id)
 
         # Data structures to use for triangle priors.
         edges2verts = self.model.edges2verts
