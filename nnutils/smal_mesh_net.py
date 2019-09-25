@@ -27,7 +27,7 @@ from . import net_blocks as nb
 flags.DEFINE_boolean('is_optimization', False, 'set to True to do refinement')
 flags.DEFINE_boolean('is_refinement', False, 'set to True to do refinement')
 
-flags.DEFINE_string('model_dir', 'nokap/smpl_models/', 'location of the SMAL model')
+flags.DEFINE_string('model_dir', 'smalst/smpl_models/', 'location of the SMAL model')
 flags.DEFINE_string('model_name', 'my_smpl_00781_4_all.pkl', 'name of the model')
 flags.DEFINE_boolean('symmetric', False, 'Use symmetric mesh or not')
 flags.DEFINE_boolean('symmetric_texture', False, 'if true texture is symmetric!')
