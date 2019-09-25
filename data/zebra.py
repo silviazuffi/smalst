@@ -1,10 +1,4 @@
 """
-CUB has 11788 images total, for 200 subcategories.
-5994 train, 5794 test images.
-
-After removing images that are truncated:
-min kp threshold 6: 5964 train, 5771 test.
-min_kp threshold 7: 5937 train, 5747 test.
 
 """
 from __future__ import absolute_import
@@ -33,7 +27,7 @@ import pickle as pkl
 # ---------------------------------- #
 #kData = 'nokap/zebra_data'
     
-flags.DEFINE_string('zebra_dir', 'nokap/zebra_data', 'Zebra Data Directory')
+flags.DEFINE_string('zebra_dir', 'smalst/zebra_data', 'Zebra Data Directory')
 flags.DEFINE_string('image_file_string', '*.png', 'String use to read the images')
 
 curr_path = osp.dirname(osp.abspath(__file__))
