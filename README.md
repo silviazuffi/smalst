@@ -46,7 +46,7 @@ download the [SMPL model](https://ps.is.tuebingen.mpg.de/code/smpl/) and create 
 #### Download data
 - [Trained network](https://drive.google.com/a/berkeley.edu/file/d/1ZkKmqlbs3LlcGTrMK1j0ZVBpddg9b6Jf/view?usp=drivesdk)
 
-- [Training data] 
+- [Training data](https://drive.google.com/open?id=1yVy4--M4CNfE5x9wUr1QBmAXEcWb6PWF)
 
 - [Test data](https://drive.google.com/a/berkeley.edu/file/d/1g5jZeA2ptAgdKVOAbZoVqsU-dNE-HD-e/view?usp=drivesdk)
 
