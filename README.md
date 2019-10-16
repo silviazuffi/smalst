@@ -54,6 +54,8 @@ download the [SMPL model](https://ps.is.tuebingen.mpg.de/code/smpl/) and create 
 
 The test and validation data are images collected in [The Great Grevy's Rally 2018](https://www.marwell.org.uk/media/other/cs_report_ggr_2018v.4.pdf)
 
+Place the downloaded network pred_net_186.pth in the folder cachedir/snapshots/smal_net_600/
+
 
 #### Usage
 
