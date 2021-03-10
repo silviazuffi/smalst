@@ -279,6 +279,7 @@ def main(_):
     shape_f = np.zeros((N,40))
 
     overlap = np.zeros((N))
+    IOU = np.zeros((N))
 
     idx = 0
 
@@ -355,7 +356,9 @@ def main(_):
         if segm_eval: 
             M_gt = mask_img[0,:,:]
             overlap[idx] = np.sum(M_gt*mask_pred)/(np.sum(M_gt)+np.sum(mask_pred))
+            IOU[idx] = np.sum(M_gt*mask_pred)/(np.sum(M_gt)+np.sum(mask_pred)-np.sum(M_gt*mask_pred))
             print(overlap[idx])
+            print(IOU[idx])
 
 
         if use_annotations:
@@ -406,7 +409,9 @@ def main(_):
             if segm_eval:
                 M_gt = mask_img[0,:,:]
                 overlap[idx] = np.sum(M_gt_m*mask_pred)/(np.sum(M_gt_m)+np.sum(mask_pred))
+                IOU[idx] = np.sum(M_gt*mask_pred)/(np.sum(M_gt)+np.sum(mask_pred)-np.sum(M_gt*mask_pred))
                 print(overlap[idx])
+                print(IOU[idx])
 
             if use_annotations:
                 if opts.test_optimization_results:
@@ -442,6 +447,10 @@ def main(_):
         print(np.mean(overlap))
         print(np.median(overlap))
         print(np.std(overlap))
+        print('IOU')
+        print(np.mean(IOU))
+        print(np.median(IOU))
+        print(np.std(IOU))
     
 
 
