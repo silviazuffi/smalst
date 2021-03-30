@@ -25,6 +25,9 @@ In ICCV 2019
 
 ### Installation
 
+Note that the following warning has been issued:
+"Pillow before 8.1.1 allows attackers to cause a denial of service (memory consumption) because the reported size of a contained image is not properly checked for an ICO container, and thus an attempted memory allocation can be very large."
+
 #### Setup virtualenv
 ```
 virtualenv venv_smalst
