@@ -173,7 +173,7 @@ def betas_loss(betas_pred, betas_gt=None, prec=None):
         if prec is None:
             b_loss = betas_pred**2
         else:
-            b_loss = betas_pred*betas_pred #*prec
+            b_loss = betas_pred*prec
             return b_loss.mean()
     else:
         criterion = torch.nn.MSELoss()
