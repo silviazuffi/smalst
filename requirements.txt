@@ -9,7 +9,7 @@ matplotlib==2.1.2
 meshzoo==0.3.1
 numpy==1.14.0
 opencv-python==3.4.0.12
-Pillow==8.3.2
+Pillow==9.0.1
 progressbar==2.3
 protobuf==3.5.1
 PyOpenGL==3.1.0
