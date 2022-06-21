@@ -7,7 +7,7 @@ imageio==2.2.0
 ipdb==0.10.3
 matplotlib==2.1.2
 meshzoo==0.3.1
-numpy==1.14.0
+numpy==1.22.0
 opencv-python==3.4.0.12
 Pillow==8.3.2
 progressbar==2.3
