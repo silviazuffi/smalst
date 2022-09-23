@@ -11,7 +11,7 @@ numpy==1.14.0
 opencv-python==3.4.0.12
 Pillow==8.3.2
 progressbar==2.3
-protobuf==3.5.1
+protobuf==3.18.3
 PyOpenGL==3.1.0
 scikit-image==0.13.1
 scipy==1.0.0
